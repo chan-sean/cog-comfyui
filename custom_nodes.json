@@ -46,5 +46,9 @@
   {
     "repo": "https://github.com/yolain/ComfyUI-Easy-Use",
     "commit": "9e70cc0"
+  },
+  {
+    "repo": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+    "commit": "6e3d072"
   }
 ]
