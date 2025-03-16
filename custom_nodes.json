@@ -42,5 +42,9 @@
   {
     "repo": "https://github.com/cubiq/PuLID_ComfyUI",
     "commit": "4e1fd40"
+  },
+  {
+    "repo": "https://github.com/yolain/ComfyUI-Easy-Use",
+    "commit": "4e1fd40"
   }
 ]
