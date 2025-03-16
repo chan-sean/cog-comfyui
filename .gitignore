@@ -1,7 +1,7 @@
 __pycache__
-*.png
-*.jpg
-*.gif
+# *.png
+# *.jpg
+# *.gif
 *.mp4
 *.zip
 *.ckpt

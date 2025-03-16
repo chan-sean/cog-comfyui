@@ -297,7 +297,7 @@
   },
   "706": {
     "inputs": {
-      "image": "https://kajiai.cn/kaji/workflow/input/bole9234_portrait_of_a_Elephant_a_simple_black_line_drawing_on__9d190203-b235-4b42-bc56-dc0972127547_3.png",
+      "image": "ComfyUI/input/bole9234_portrait_of_a_Elephant_a_simple_black_line_drawing_on__9d190203-b235-4b42-bc56-dc0972127547_3.png",
       "upload": "image"
     },
     "class_type": "LoadImage",
@@ -307,7 +307,7 @@
   },
   "707": {
     "inputs": {
-      "image": "https://kajiai.cn/kaji/workflow/input/bole9234_portrait_of_a_Zebra_a_simple_black_line_drawing_on_a_w_e77480d9-69fb-4fa3-aef9-03927d0e4d03_1.png",
+      "image": "ComfyUI/input/bole9234_portrait_of_a_Zebra_a_simple_black_line_drawing_on_a_w_e77480d9-69fb-4fa3-aef9-03927d0e4d03_1.png",
       "upload": "image"
     },
     "class_type": "LoadImage",
@@ -317,7 +317,7 @@
   },
   "708": {
     "inputs": {
-      "image": "https://kajiai.cn/kaji/workflow/input/bole9234_portrait_of_a_Snake_a_simple_black_line_drawing_on_a_w_1ec7b023-b424-442a-b43b-9c8f467e270f_2.png",
+      "image": "ComfyUI/input/bole9234_portrait_of_a_Snake_a_simple_black_line_drawing_on_a_w_1ec7b023-b424-442a-b43b-9c8f467e270f_2.png",
       "upload": "image"
     },
     "class_type": "LoadImage",
@@ -327,7 +327,7 @@
   },
   "709": {
     "inputs": {
-      "image": "https://kajiai.cn/kaji/workflow/input/bole9234_portrait_of_a_Hippopotamus_a_simple_black_line_drawing_0fa74325-3097-4c7e-afc6-1cca50c94055_4.png",
+      "image": "ComfyUI/input/bole9234_portrait_of_a_Hippopotamus_a_simple_black_line_drawing_0fa74325-3097-4c7e-afc6-1cca50c94055_4.png",
       "upload": "image"
     },
     "class_type": "LoadImage",
@@ -971,7 +971,7 @@
   },
   "911": {
     "inputs": {
-      "image": "https://kajiai.cn/kaji/workflow/input/tobias08736_illustrative_simple_linework_rendering_of_a_row_of__c06b03d6-568c-4abc-b2d9-b9c03d703765.png",
+      "image": "ComfyUI/input/tobias08736_illustrative_simple_linework_rendering_of_a_row_of__c06b03d6-568c-4abc-b2d9-b9c03d703765.png",
       "upload": "image"
     },
     "class_type": "LoadImage",
@@ -981,7 +981,7 @@
   },
   "912": {
     "inputs": {
-      "image": "https://kajiai.cn/kaji/workflow/input/289836d3caabdbec7ceb7b1caff2c81d.jpg",
+      "image": "ComfyUI/input/289836d3caabdbec7ceb7b1caff2c81d.jpg",
       "upload": "image"
     },
     "class_type": "LoadImage",
@@ -991,7 +991,7 @@
   },
   "913": {
     "inputs": {
-      "image": "https://kajiai.cn/kaji/workflow/input/eran909798_government_icon_hand-drawn_black_lines_--ar_169_--v__18d22f6f-9369-4ea6-a48d-95486998fe54.png",
+      "image": "ComfyUI/input/eran909798_government_icon_hand-drawn_black_lines_--ar_169_--v__18d22f6f-9369-4ea6-a48d-95486998fe54.png",
       "upload": "image"
     },
     "class_type": "LoadImage",
@@ -1001,7 +1001,7 @@
   },
   "914": {
     "inputs": {
-      "image": "https://kajiai.cn/kaji/workflow/input/6ce20c9d1715d70aced4e4e99642ed4f.jpg",
+      "image": "ComfyUI/input/6ce20c9d1715d70aced4e4e99642ed4f.jpg",
       "upload": "image"
     },
     "class_type": "LoadImage",

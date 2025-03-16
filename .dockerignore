@@ -4,9 +4,9 @@
 **/.ci
 
 # Outputs
-*.jpg
-*.png
-*.gif
+# *.jpg
+# *.png
+# *.gif
 *.mp4
 *.zip
 *.tar

@@ -38,5 +38,9 @@
   {
     "repo": "https://github.com/al-swaiti/ComfyUI-OllamaGemini",
     "commit": "b4a421a"
+  },
+  {
+    "repo": "https://github.com/cubiq/PuLID_ComfyUI",
+    "commit": "4e1fd40"
   }
 ]

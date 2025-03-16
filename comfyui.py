@@ -173,10 +173,21 @@ class ComfyUI:
                             # The same URL may be included in a workflow more than once
                             node["inputs"][input_key] = filename
 
+                        # 修改源码！！！
                         elif self.is_image_or_video_value(input_value):
-                            filename = os.path.join(
-                                self.input_directory, os.path.basename(input_value)
-                            )
+                            # 判断是否可以是在 ComfyUI/input 目录下的图片,通过字符串匹配
+                            if input_value.startswith("ComfyUI/input/"):
+                                # 获取当前文件所在的目录
+                                current_directory = os.path.dirname(__file__)
+                                filename = os.path.join(
+                                    current_directory, input_value
+                                )
+                            else:
+                                # 不是 ComfyUI/input 目录下的图片，原来的逻辑
+                                filename = os.path.join(
+                                    self.input_directory, os.path.basename(input_value)
+                                )
+
                             if not os.path.exists(filename):
                                 print(f"❌ {filename} not provided")
                                 missing_inputs.append(filename)

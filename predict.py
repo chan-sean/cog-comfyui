@@ -60,15 +60,22 @@ class Predictor(BasePredictor):
         # negative_prompt = workflow["7"]["inputs"]
         # negative_prompt["text"] = f"nsfw, {kwargs['negative_prompt']}"
 
-        sampler = workflow["6"]["inputs"]
-        sampler["seed"] = kwargs["seed"]
+        # 替换种子数据
+        seed = kwargs["seed"]
+        workflow["701"]["inputs"]["seed"] = seed
+        workflow["830"]["inputs"]["seed"] = seed
+        workflow["854"]["inputs"]["seed"] = seed
+        workflow["885"]["inputs"]["seed"] = seed
+        workflow["903"]["inputs"]["seed"] = seed
+        workflow["930"]["inputs"]["seed"] = seed
+        workflow["958"]["inputs"]["seed"] = seed
+        workflow["970"]["inputs"]["seed"] = seed
 
-        image = workflow["700"]["inputs"]
-        image["image"] = kwargs["image_filename"]
-
-
-        mode = workflow["975"]["inputs"]
-        mode["int"] = kwargs["mode"]
+        # 替换用户入参图片
+        workflow["700"]["inputs"]["image"] = kwargs["image_filename"]
+        
+        # 替换用户入参选项
+        workflow["975"]["inputs"]["value"] = kwargs["mode"]
 
         pass
 
@@ -101,7 +108,7 @@ class Predictor(BasePredictor):
         # Make sure to set the seeds in your workflow
         seed = seed_helper.generate(None)
 
-        image_filename = None
+        image_filename = "ComfyUI/input/example.png"
         if image:
             image_filename = self.filename_with_extension(image, "image")
             self.handle_input_file(image, image_filename)
