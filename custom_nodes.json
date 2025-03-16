@@ -1,0 +1,42 @@
+[
+  {
+    "repo": "https://github.com/Fannovel16/comfyui_controlnet_aux",
+    "commit": "1e9eac6"
+  },
+  {
+    "repo": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+    "commit": "9d076a3"
+  },
+  {
+    "repo": "https://github.com/1038lab/ComfyUI-RMBG",
+    "commit": "a88a3c1"
+  },
+  {
+    "repo": "https://github.com/chflame163/ComfyUI_LayerStyle",
+    "commit": "7b326d1"
+  },
+  {
+    "repo": "https://github.com/sipherxyz/comfyui-art-venture",
+    "commit": "50abaac"
+  },
+  {
+    "repo": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts",
+    "commit": "e693a56"
+  },
+  {
+    "repo": "https://github.com/cubiq/ComfyUI_essentials",
+    "commit": "33ff89f"
+  },
+  {
+    "repo": "https://github.com/SeargeDP/SeargeSDXL",
+    "commit": "2eb5edb"
+  },
+  {
+    "repo": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet",
+    "commit": "da254b7"
+  },
+  {
+    "repo": "https://github.com/al-swaiti/ComfyUI-OllamaGemini",
+    "commit": "b4a421a"
+  }
+]
