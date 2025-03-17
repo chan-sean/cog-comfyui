@@ -165,7 +165,7 @@ class ComfyUI:
                                     response.raise_for_status()
                                     with open(filename, "wb") as file:
                                         file.write(response.content)
-                                    print(f"✅ {filename}")
+                                    print(f"✅ - {filename}")
                                 except requests.exceptions.RequestException as e:
                                     print(f"❌ Error downloading {input_value}: {e}")
                                     missing_inputs.append(filename)
@@ -192,7 +192,8 @@ class ComfyUI:
                                 print(f"❌ {filename} not provided")
                                 missing_inputs.append(filename)
                             else:
-                                print(f"✅ {filename}")
+                                node["inputs"][input_key] = filename
+                                print(f"✅ -- {filename}")
 
         if missing_inputs:
             raise Exception(f"Missing required input files: {', '.join(missing_inputs)}")
